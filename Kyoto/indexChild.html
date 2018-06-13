@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>一个新起飞页站点</title>
+		<link rel="icon" href="img/ico.png" type="image/png" />
+		<link rel="stylesheet" type="text/css" href="css/all.css"/>
+		<link rel="stylesheet" type="text/css" href="css/indexChild.css"/>
+	</head>
+	<body>
+		<div class="head">
+			<div class="head-top">
+				<span>欢迎访问京都私人定制旅行社！</span>
+				<div>
+					<a href="html/login.html"><span><img src="img/index/未标题-1.gif"/></span>登录</a>
+					<a href="html/register.html"><span><img src="img/index/未标题-2.gif"/></span>注册</a>
+				</div>
+			</div>
+			<div class="logo">
+				<div class="logo-left">
+					<a href="index.html"><img src="img/index/kxMD.png"/></a>
+				</div>
+				<div class="logo-right">
+					<button>400-666-666</button>
+				</div>
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="index.html" id="last">首页</a></li>
+					<li><a href="html/scenic.html">热门景点</a></li>
+					<li><a href="html/cate.html">人气美食</a></li>
+					<li><a href="html/taxes.html">免税信息</a></li>
+					<li><a href="html/sightseeing.html">游览活动</a></li>
+					<li><a href="html/travel.html">旅行套餐</a></li>
+					<li><a href="html/visa.html">办理签证</a></li>
+				</ul>
+			</div>
+		</div>
+		<img src=""/>
+		<div class="content">
+			京都市美术馆坐落于文化设施林立的冈崎公园。博物馆屋顶是为铜质，建筑风格颇具西方皇室风范。该博物馆始于 1933 年，在此曾举办过昭和天皇的登基庆典。该馆同时也是是<br />
+			日本第二早开放的市立美术馆。京都市美术馆馆藏艺术品 2100 余件，其中包括了竹内栖凰、富冈铁斋、上村松园、菊池契月、梶原绯佐子、金岛桂华等日本名家之作，也包括了<br />
+			一些西方绘画、雕塑、工艺品、字迹及木版画等。此前，该博物馆曾举办过多次大型特别展览，展出了来自卢浮宫以及数间美国知名博物馆等地的部分藏品。其他特别展包括日本<br />
+			现代艺术展及常规年度展亦广受欢迎。<br />
+			* 地址：Okazaki Enshoji-cho Sakyo-ku, Kyoto City, 606-8344<br />
+			* 电话： +81-(0)75-771-4107<br />
+			* 传真： +81-(0)75-761-0444<br />
+			* 如何抵达： 由 Higashiyama 地铁站步行十分钟<br />
+			由 “Kyoto Kaikan Bijutsukan-mae” 公交车站步行一分钟<br />
+			（自京都站 #100，自京都站或 Sanjo Keihan #5，自Shijo Omiya或 Shijo Kawaramachi #32，46）<br />
+			* 入场费：参见具体展览<br />
+			* 是否便于使用轮椅：是<br />
+			* 开馆时间：9:00 – 17:00 （入场时间截至16:30)<br />
+			* 闭馆时间：周一（周一若为国家假日时则照常开馆），新年假期（12月28日-1月2日)
+		</div>
+		<div class="foot">
+			<div class="ft-tp">
+				<div class="ft-tp-nav">
+					<ul>
+						<li><a href="index.html" id="last">首页</a></li>
+						<li><a href="html/scenic.html">热门景点</a></li>
+						<li><a href="html/cate.html">人气美食</a></li>
+						<li><a href="html/taxes.html">免税信息</a></li>
+						<li><a href="html/sightseeing.html">游览活动</a></li>
+						<li><a href="html/travel.html">旅行套餐</a></li>
+						<li><a href="html/visa.html">办理签证</a></li>
+					</ul>
+				</div>
+				<div class="ft-tp-lg">
+					<div>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<img src="img/index/iNTZ.png"/>
+				</div>
+			</div>
+			<div class="ft-bt">版权所有 © 2020 京都私人定制旅行社.  ICP备666666666号-1</div>
+		</div>
+	</body>
+</html>
+<script>
+	var Url = window.location.search.substring(1);
+	var src = Url.substring(Url.lastIndexOf('/')+1);
+	document.querySelector('body>img').src="indexChild/"+src;
+</script>

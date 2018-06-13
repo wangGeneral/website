@@ -1,0 +1,49 @@
+.box{
+	width: 1903px;
+	height: 1351px;
+	margin: 0 auto;
+}
+.head{
+	width: 100%;
+	height: 212px;
+	background: url(../img/taxes/MjA.jpg) no-repeat;
+	background-position: 0px 40px;
+	background-size: 1903px;
+	overflow: hidden;
+}
+.body{
+	width: 998px;
+	height: 890px;
+	padding-top: 69px;
+	margin: 0 auto;
+}
+.body>.bd-tp{
+	width: 100%;
+	height: 230px;
+}
+.body>.bd-bt{
+	width: 100%;
+	height: 660px;
+}
+.body>.bd-bt>a{
+	position: relative;
+}
+.body>.bd-bt>a>img{
+	width: 318px;
+	height: 212px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.body>.bd-bt>div{
+	width: 332px;
+	height: 61px;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+}
+.body>.bd-bt>div>a{
+	color: #94846B;
+	font-size: 14px;
+	font-family: Open Sans;
+	cursor: pointer;
+}

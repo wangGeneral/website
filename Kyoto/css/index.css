@@ -1,0 +1,235 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.box{
+	width: 1903px;
+	height: 3525px;
+	position: relative;
+	margin: 0 auto;
+}
+.head{
+	width: 1903px;
+	height: 1250px;
+	color: white;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+.head>.head-bottom{
+	width: 1903px;
+	height: 1210px;
+	position: relative;
+}
+.head>.head-bottom>ul{
+	list-style: none;
+}
+.head>.head-bottom>ul>li{
+	width: 1903px;
+	height: 1210px;
+	position: absolute;
+}
+.head>.head-bottom>.head-body{
+	width: 1903px;
+	height: 1210px;
+	position: absolute;
+}
+.head>.head-bottom>.head-body>.bannar{
+	width: 118px;
+	height: 714px;
+	margin: 0 auto;
+}
+.head>.head-bottom>.head-body>.bd-foot{
+	width: 100%;
+	height: 262px;
+}
+.head>.head-bottom>.head-body>.bd-foot>.foot-top{
+	width: 100%;
+	height: 247px;
+	background: #1F221B;
+}
+.head>.head-bottom>.head-body>.bd-foot>.foot-top>div{
+	width: 233px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+.head>.head-bottom>.head-body>.bd-foot>.foot-top>div>p{
+	color: rgb(186, 171, 102);
+	font-size: 27px;
+	font-family: "楷体";
+	line-height: 89px;
+	margin-top: 51px;
+}
+.head>.head-bottom>.head-body>.bd-foot>.foot-top>div>a{
+	text-decoration: none;
+	padding: 8px 30px;
+	border: 1px solid #BAAB66;
+	border-radius: 20px;
+	background: #BAAB66;
+	color: #1F221B;
+	font-size: 16px;
+	font-weight: bold;
+}
+.head>.head-bottom>.head-body>.bd-foot>.foot-top>div>a:hover{
+	background: #1F221B;
+	color: #BAAB66;
+}
+.head>.head-bottom>.head-body>.bd-foot>.foot-bottom{
+	width: 100%;
+	height: 15px;
+	background: url(../img/index/DovL.jpg);
+}
+.body{
+	width: 100%;
+	height: 2095px;
+	position: relative;
+}
+.body>.bd-top{
+	width: 1030px;
+	height: 627px;
+	margin: 0 auto;
+	border-bottom: 1px solid #BAAB66;
+}
+.body>.bd-top>.bd-tp-left{
+	width: 472px;
+	height: 627px;
+	background: url(../img/index/jNj.jpg) no-repeat;
+	background-size: 472px 298px;
+	background-position: 0 120px;
+	padding-left: 4px;
+	float: left;
+	transition: all 1s linear;
+	/*transform: scale(1);*/
+}
+.body>.bd-top>.bd-tp-left:hover{
+	transform: scale(1.1);
+}
+.body>.bd-top>.bd-tp-left>a{
+	color: white;
+	text-decoration: none;
+}
+.body>.bd-top>.bd-tp-left img{
+	width: 30px;
+	height: 40px;
+	margin-top: 250px;
+	margin-left: 20px;
+}
+.body>.bd-top>.bd-tp-left span{
+	margin-left: 20px;
+	font-weight: 700;
+	font-size: 18px;
+	font-family: "楷体";
+	line-height: 30px;
+}
+.body>.bd-top>.bd-tp-left #o{
+	font-style: italic;
+}
+.body>.bd-top>.bd-tp-right{
+	width: 458px;
+	height: 507px;
+	padding-top: 120px;
+	float: right;
+}
+.body>.bd-center{
+	width: 1030px;
+	height: 505px;
+	margin: 0 auto;
+	border-bottom: 1px solid #BAAB66;
+	padding-top: 90px;
+}
+.body>.bd-center>.bd-ct-left{
+	width: 479px;
+	height: 505px;
+	padding-left: 15px;
+	float: left;
+}
+.body>.bd-center>.bd-ct-right{
+	float: right;
+	width: 455px;
+	height: 505px;
+}
+.body>.bd-center>.bd-ct-right>div{
+	width: 430px;
+	height: 133px;
+	border-bottom: 1px solid #E5E5E5;
+	margin-bottom: 15px;
+}
+.body>.bd-center>.bd-ct-right>div>a>.im{
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	float: left;
+	border: 1px solid #ccc;
+	transition: all 3s linear;
+}
+.im:hover{
+	transform: rotate(360deg);
+}
+.body>.bd-center>.bd-ct-right>div>div{
+	float: right;
+	font-size: 10px;
+}
+.body>.bd-center>.bd-ct-right>div>div>a{
+	color: #BAAB66;
+	font-size: 14px;
+	line-height: 16px;
+}
+.body>.bd-center>.bd-ct-right>div>div>p{
+	color: #ccc;
+	line-height: 18px;
+}
+.body>.bd-center>.bd-ct-right>div>div>p:nth-of-type(1){
+	color: black;
+	line-height: 20px;
+}
+.body>.bd-bottom{
+	width: 1015px;
+	height: 783px;
+	padding-left: 15px;
+	padding-top: 88px;
+	margin: 0 auto;
+}
+.wd-lo{
+	width: 950px;
+}
+.body>.bd-bottom>.bd-bt>a{
+	float: left;
+}
+.body>.bd-bottom>.bd-bt>a>div{
+	width: 160px;
+	height: 160px;
+	padding: 5px;
+	margin-top: 20px;
+	margin-right: 25px;
+	margin-left: 3px;
+	border: 1px solid #ccc;
+	transition: all .3s linear;
+}
+.body>.bd-bottom>.bd-bt>a>div:hover{
+	border-radius: 50%;
+}
+.body>.bd-bottom>.bd-bt>a>div>img{
+	transition: all .3s linear;
+}
+.body>.bd-bottom>.bd-bt>a>div:hover>img{
+	border-radius: 50%;
+}
+.body>.bd-bottom>.bd-bt>a>span{
+	font-size: 12px;
+	font-family: Open Sans;
+	line-height: 18px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #B79F6C;
+	display: block;
+	width: 200px;
+	text-align: center;
+	position: relative;
+	left: -10px;
+	top: 10px;
+}

@@ -1,0 +1,78 @@
+.box{
+	width: 1903px;
+	height: 2102px;
+	margin: 0 auto;
+}
+.head{
+	width: 100%;
+	height: 212px;
+	background: url(../img/cate/RkN.jpg) no-repeat;
+	background-position: 0px 40px;
+	background-size: 1903px;
+	overflow: hidden;
+}
+.body{
+	width: 987px;
+	height: 1710px;
+	margin: 0 auto;
+}
+.body>.bd-tp{
+	width: 100%;
+	height: 387px;
+	padding-top: 111px;
+}
+.body>.bd-tp>img{
+	width: 437px;
+	height: 305px;
+	transition: all .5s linear;
+}
+.body>.bd-tp>img:hover{
+	transform: scale(1.1);
+}
+.body>.bd-tp>div{
+	width: 512px;
+	height: 387px;
+	float: right;
+}
+.body>.bd-tp>div>.line{
+	width: 512px;
+	height: 53px;
+	text-align: center;
+	border-bottom: 1px solid #B79F6C;
+}
+.body>.bd-tp>div>.content1{
+	font-size: 12px;
+	font-family: "宋体";
+}
+.body>.bd-ct{
+	width: 950px;
+	height: 542px;
+	padding-top: 77px;
+	border-top: 1px solid #B79F6C;
+}
+.body>.bd-ct>div{
+	width: 100%;
+	height: 209px;
+}
+.body>.bd-ct>a>img{
+	width: 224px;
+	height: 224px;
+	margin-left: 9px;
+	cursor: pointer;
+}
+.body>.bd-ct>a>#lf{
+	margin-left: 2px;
+}
+.body>.bd-bt>div{
+	width: 100%;
+	height: 209px;
+}
+.body>.bd-bt>a>img{
+	width: 224px;
+	height: 224px;
+	margin-left: 9px;
+	cursor: pointer;
+}
+.body>.bd-bt>a>#lf{
+	margin-left: 2px;
+}

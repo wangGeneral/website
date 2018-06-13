@@ -1,0 +1,151 @@
+.box{
+	width: 1903px;
+	height: 2119px;
+	margin: 0 auto;
+}
+.head{
+	width: 100%;
+	height: 212px;
+	background: url(../img/travel/TM.jpg) no-repeat;
+	background-position: 0px 40px;
+	background-size: 1903px;
+	overflow: hidden;
+}
+.body{
+	width: 1002px;
+	height: 1687px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.body>.bd-lf{
+	width: 341px;
+	float: left;
+	height: 100%;
+}
+.body>.bd-lf>div{
+	width: 100%;
+	height: 53px;
+	margin-top: 25px;
+}
+.body>.bd-lf>div>input{
+	width: 101px;
+	height: 38px;
+	font-size: 14px;
+	border: 1px solid #D6C5A2;
+	margin-right: 11px;
+	outline: 0;
+}
+.body>.bd-lf>div>#day{
+	margin: 0;
+}
+.body>.bd-lf>#phone{
+	outline: 0;
+	width: 100%;
+	height: 38px;
+	font-size: 14px;
+	margin-bottom: 13px;
+	border: 1px solid #D6C5A2;
+}
+.body>.bd-lf>#content{
+	width: 100%;
+	height: auto;
+	font-size: 14px;
+	line-height: 1.4;
+	margin-bottom: 3px;
+	padding: 2px;
+	outline: 0;
+	overflow: auto;
+	vertical-align: top;
+	font: 13.3333px Arial;
+	border: 1px solid #D6C5A2;
+}
+.body>.bd-lf>#submit{
+	color: white;
+	width: 110px;
+	height: 30px;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-bottom: 64px;
+	background: #B79F6C;
+	border: 1px solid #B79F6C;
+}
+label{
+	color: rgb(102,102,102);
+	font-size: 12px;
+	line-height: 40px;
+	position: absolute;
+	cursor: default;
+	padding-left: 5px;
+}
+#con-lab,#con-lab>span{
+	line-height: 20px;
+}
+label>span{
+	color: #CC0101;
+	font-size: 10px;
+	line-height: 40px;
+}
+.md-lg{
+	display: block;
+}
+.body>.bd-lf>#sou{
+	margin-top: 25px;
+	width: 100%;
+	height: 37px;
+	outline: 0;
+	color: #B79F6C;
+	font-size: 12px;
+	line-height: 14px;
+	padding-left: 5px;
+	text-align: start;
+	font: 13.3333px Arial;
+	vertical-align: baseline;
+	border: 1px solid #D6C5A2;
+}
+.body>.bd-lf>#sou::-webkit-input-placeholder{
+	color: #B79F6C;
+}
+#tu{
+	position: relative;
+	top: -61px;
+	left: 320px;
+	cursor: pointer;
+}
+.body>.bd-rt{
+	width: 616px;
+	height: 1687px;
+	float: right;
+}
+.body>.bd-rt>img{
+	width: 100%;
+	height: 198px;
+	margin-bottom: 44px;
+}
+.body>.bd-rt>.button{
+	width: 576px;
+	height: 81px;
+}
+.body>.bd-rt>.bd-rt-ft{
+	width: 100%;
+	height: 760px;
+	padding-top: 18px;
+	border: 1px solid #94846B;
+}
+.body>.bd-rt>.bd-rt-ft>a>img{
+	width: 182px;
+	height: 201px;
+	margin-left: 16px;
+}
+.body>.bd-rt>.bd-rt-ft>div{
+	width: 182px;
+	height: 54px;
+	float: left;
+	margin-left: 16px;
+	line-height: 30px;
+	text-align: center;
+}
+.body>.bd-rt>.bd-rt-ft>div>a{
+	color: #94846B;
+	font-size: 13px;
+	font-family: "宋体";
+}
